@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio de Federico</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Federico · Ciencia de Datos Jr</h1>
+    <p>Explora mis proyectos y habilidades</p>
+  </header>
+
+  <section id="habilidades">
+    <h2>🧠 Habilidades Técnicas</h2>
+    <ul>
+      <li>Python, SQL, HTML, CSS, JavaScript</li>
+      <li>scikit-learn, Matplotlib, Seaborn</li>
+      <li>Diseño y desarrollo web</li>
+    </ul>
+  </section>
+
+  <section id="proyectos">
+    <h2>🚀 Proyectos</h2>
+    <div class="proyecto" onclick="mostrarDetalles('profitt')">
+      <h3>PROFITT</h3>
+      <p>Simulador comercial interactivo</p>
+    </div>
+    <div class="proyecto" onclick="mostrarDetalles('soundmaster')">
+      <h3>SOUND MASTERAI</h3>
+      <p>Masterización de audio en línea</p>
+    </div>
+    <!-- Repite para cada app -->
+  </section>
+
+  <section id="detalles">
+    <!-- Aquí se mostrarán los detalles dinámicos con JS -->
+  </section>
+
+  <footer>
+    <p>Contacto: federico@email.com · GitHub: @federico-ds</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
