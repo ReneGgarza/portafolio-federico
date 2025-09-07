@@ -1,0 +1,23 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+header, section, footer {
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 800px;
+  background: white;
+  border-radius: 8px;
+}
+.proyecto {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  transition: background 0.3s;
+}
+.proyecto:hover {
+  background: #e0f7fa;
+}
